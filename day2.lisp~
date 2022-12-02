@@ -1,0 +1,15 @@
+(in-package #:advent2022)
+
+(defun read-strategy ()
+  
+  (loop :for g :in  (uiop:read-file-lines (asdf:system-relative-pathname 'advent2022 "inputs/day2-test"))
+	:collect  (split " " g)  )  )
+  
+
+
+( defun day1/solution1 ()
+   )
+
+
+( defun day1/solution2 ()
+ )
